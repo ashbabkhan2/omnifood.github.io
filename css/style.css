@@ -75,7 +75,7 @@ h3{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.btn:link,.btn:visited{
+.btn:link,.btn:visited,input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -84,18 +84,21 @@ h3{
     transition: background-color 1s , color 1.5s;
 
 }
-.b1:link,.b1:visited{
+
+.b1:link,.b1:visited ,input[type=submit]{
     background-color: #e67e22;
     color: #fff;
+    border: 1px solid #d35400;
+
 }
 .b2:link,.b2:visited{
     border: 1px solid #e67e22;
     color: #e67e22;
 }
-.b1:hover,.b1:active{
+.b1:hover,.b1:active , input[type=submit]:hover{
     background-color: #d35400;
 }
-.b2:hover,.b2:active{
+.b2:hover,.b2:active {
     background-color: #d35400;
     color: #fff;
 }
@@ -337,4 +340,24 @@ blockquote::before{
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.forms{
+    width: 60%;
+    margin: 0 auto;
+}
+input[type=text],input[type=email] ,.forms select , .forms  textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 180px;
+}
+input[type=checkbox]{
+    margin: 7px 7px 10px 0px;
+}
+*:focus{
+    outline: none;
 }
