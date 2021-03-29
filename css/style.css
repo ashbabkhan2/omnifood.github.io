@@ -291,7 +291,7 @@ blockquote::before{
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
-    box-shadow: 2px 2px 2px 3px #d3d0d0;
+    box-shadow: 1px 1px 1px 1px #d3d0d0;
 }
 .aa div{
     padding: 15px;
