@@ -1,0 +1,97 @@
+
+
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    .hero{
+        width: 100%;
+        padding: 0 10px;
+        /* position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+    }
+    .row{
+        padding: 0 10px;
+    }
+    
+}
+
+/* for small tablets to large */
+@media only screen and (max-width:1020px){
+    html{
+        font-size: 18px;
+    }
+    .long-copy{
+        width: 80%;
+        margin-left: 80px;
+
+    }
+    .steps-box{
+        margin-top: 10px;
+    }
+    .work-step{
+       margin-bottom: 40px;
+    }
+    .b5{
+        margin-top: 80px;
+    }
+    .iphone{
+        width: 50%;
+    }
+    section{
+        padding: 50px 0;
+    }
+    .city-features ion-icon{
+        margin-right: 10px;
+        width: 20px;
+    }
+    .city-features{
+      font-size: 90%;
+    }
+    .aa{
+        width: 100%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .row{
+        padding: 0 2%;
+    }
+    .forms{
+        width: 80%;
+    }
+}
+
+/* small phones to small tablets*/
+@media only screen and (max-width:767px){
+
+}
+
+/* for small phones */
+@media only screen and (max-width:480px){
+   html{
+       font-size: 16px;
+   }
+   section{
+       padding: 30px 0;
+   }
+   .col{
+       width: 100%;
+   }
+   .long-copy{
+       width: 100%;
+       margin-left: 0;
+   }
+   h2{
+       font-size: 150%;
+   }
+   .rr{
+       width: 100%;
+       text-align: center;
+   }
+   .iphone{
+       width: 60%;
+       float: none;
+       padding-right: 0;
+   }
+}
