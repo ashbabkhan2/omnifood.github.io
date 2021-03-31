@@ -109,4 +109,21 @@
    .aa{
        width: 100%;
    }
+   .logo{
+       width: 50px;
+       height: auto;
+   }
+ 
+   nav{
+       font-size: 10px;
+   }
+   .lists li{
+       margin-left: 10px;
+   }
+   .lists{
+       margin-top: 40px;
+   }
+   .box{
+       text-align: center;
+   }
 }
