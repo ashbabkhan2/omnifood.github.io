@@ -131,5 +131,16 @@
        width: 100%;
        text-align: center;
    }
-  
+   .f123{
+       margin-left: 40px;
+   }
+   .f124{
+       margin-left: 5px;
+   }
+   .f125{
+       margin-left: 35px;
+   }
+  .f126{
+      margin-left: 25px;
+  }
 }
